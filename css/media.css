@@ -291,9 +291,6 @@
   .footer__column {
     width: 100%;
   }
-  .footer__tel {
-    padding-bottom: 4px;
-  }
   .footer__under {
     -moz-column-gap: 0;
          column-gap: 0;

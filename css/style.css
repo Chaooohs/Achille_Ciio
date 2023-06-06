@@ -35,7 +35,7 @@ body {
 /* #region // -commom */
 .page {
   max-width: 1440px;
-  background-color: red;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -620,6 +620,9 @@ body {
 }
 .footer__feedback-title {
   padding-bottom: 24px;
+}
+.footer__tel {
+  padding-bottom: 4px;
 }
 .footer__descript {
   font-weight: 400;

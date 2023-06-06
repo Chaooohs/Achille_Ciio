@@ -44,8 +44,7 @@ body {
 
 .page {
   max-width: 1440px;
-  // margin: 0 auto;
-  background-color: red;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -735,6 +734,10 @@ $double-spanish-white: #DFD8BF;
 
   &__feedback-title {
     padding-bottom: 24px;
+  }
+
+  &__tel {
+    padding-bottom: 4px;
   }
 
   &__descript {
