@@ -18,7 +18,7 @@
 
   // -header -----------------
   .header {
-    padding: 30px 80px 29px 88px;
+    padding: 30px 50px 29px 88px;
 
     &__logo {
       width: 122px;
@@ -50,8 +50,8 @@
     margin-bottom: 78px;
   }
 
-  .slaider .w-100 {
-    width: 773px !important;
+  .slaider .carouselone-img {
+    width: 773px;
   }
 
   // -block four ------------------
@@ -107,6 +107,84 @@
 
 }
 
+@media (max-width: 992px) {
+
+  // -common ---------------
+
+  .chapter {
+    padding: 0 50px 0 0px;
+  }
+
+  // -header ---------------
+  .header {
+    height: 102px;
+  }
+
+  .header__nav,
+  .header__contact {
+    display: none;
+  }
+
+  // -block three --------------
+  .slaider .carouselone-img {
+    width: 87%;
+    height: auto;
+  }
+
+  .slaider__footer {
+    align-items: flex-start;
+  }
+
+  // -block four ----------------
+  .four__select {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  // -common --------------------
+  .wrapper {
+    padding: 40px 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .three__chapter-middle,
+  .five__chapter-middle {
+    display: none;
+  }
+
+  // -block three -------------
+
+  .slaider__bee-one,
+  .slaider__bee-two {
+    font-size: 76px;
+  }
+
+  .slaider__from {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  // -block four ----------------
+
+  .cards {
+    display: none;
+  }
+
+  .four__carousel {
+    display: block;
+  }
+
+  .carouseltwo-img {
+    grid-column: 1/3;
+  }
+}
+
 @media (max-width: 375px) {
 
   // -fonts -----------------------
@@ -143,21 +221,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    padding-bottom: 24px;
-  }
-
-  // -block common ----------------
-  .wrapper {
-    padding: 40px 20px;
-  }
-
-  .chapter {
-    padding: 0 50px;
-  }
-
-  .content {
-    flex-direction: column;
-    row-gap: 40px;
   }
 
   // -header ----------------------
@@ -165,11 +228,6 @@
   .header {
     height: 102px;
     padding: 42px 28px;
-  }
-
-  .header__nav,
-  .header__contact {
-    display: none;
   }
 
   // -block one ---------------------
@@ -245,16 +303,8 @@
     width: 54px;
   }
 
-  .three__chapter-middle {
-    display: none;
-  }
-
   .slaider__header {
     margin-bottom: 40px;
-  }
-
-  .slaider__footer {
-    align-items: flex-start;
   }
 
   .slaider__bee-one,
@@ -263,9 +313,9 @@
     line-height: 50px;
   }
 
-  .slaider .w-100 {
-    width: 254px !important;
-    height: 189.59px;
+  .slaider .carouselone-img {
+    width: 254px;
+    height: 190px;
   }
 
   .slaider__from {
@@ -291,26 +341,10 @@
     background: url(../img/icon/drop-down-black.svg) 0 0/100% no-repeat;
   }
 
-  .cards {
-    display: none;
-  }
-
-  .four__carousel {
-    display: block;
-  }
-
-  .w-100 {
-    grid-column: 1/3;
-  }
-
   // -block five ---------------
 
   .five__chapter-first {
     width: 72px;
-  }
-
-  .five__chapter-middle {
-    display: none;
   }
 
   .five__slaider,
@@ -372,6 +406,7 @@
   }
 
   .footer__under {
-    column-gap: 33%;
+    column-gap: 0;
+    justify-content: space-between;
   }
 }

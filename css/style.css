@@ -135,6 +135,7 @@ body {
   line-height: 22px;
   letter-spacing: 0.03em;
   color: #fff;
+  padding-bottom: 24px;
 }
 
 /* #endregion */
@@ -303,17 +304,17 @@ body {
 .slaider__bee-one {
   font-weight: 400;
   font-size: 128px;
-  line-height: 154px;
+  line-height: 120.3%; /* 154/128 */
   color: #181A20;
 }
 .slaider__bee-two {
   font-weight: 400;
   font-size: 128px;
-  line-height: 154px;
+  line-height: 120.3%; /* 154/128 */
   color: rgba(255, 255, 255, 0.5);
   opacity: 0.8;
 }
-.slaider .w-100 {
+.slaider .carouselone-img {
   width: 970px;
   height: 501px;
   -o-object-fit: cover;

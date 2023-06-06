@@ -158,6 +158,7 @@ $double-spanish-white: #DFD8BF;
   line-height: 22px;
   letter-spacing: 0.03em;
   color: $white;
+  padding-bottom: 24px;
 }
 
 /* #endregion */
@@ -361,19 +362,19 @@ $double-spanish-white: #DFD8BF;
   &__bee-one {
     font-weight: 400;
     font-size: 128px;
-    line-height: 154px;
+    line-height: 120.3%; /* 154/128 */
     color: $mirage;
   }
 
   &__bee-two {
     font-weight: 400;
     font-size: 128px;
-    line-height: 154px;
+    line-height: 120.3%; /* 154/128 */
     color: rgba(255, 255, 255, 0.5);
     opacity: 0.8;
   }
 
-  .w-100 {
+  .carouselone-img {
     width: 970px;
     height: 501px;
     object-fit: cover;
