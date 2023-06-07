@@ -23,6 +23,12 @@
   .communities__header {
     margin-bottom: 80px;
   }
+  .card__img {
+    width: 268px;
+    height: 240px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 @media (max-width: 992px) {
   .header {

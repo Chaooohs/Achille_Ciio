@@ -33,6 +33,14 @@
   .communities__header {
     margin-bottom: 80px;
   }
+
+  // -communaites cards ---------------------------------
+
+  .card__img {
+    width: 268px;
+    height: 240px;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 992px) {
