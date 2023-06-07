@@ -42,6 +42,12 @@
   .communities {
     padding: 40px 20px;
   }
+  .communities__details {
+    padding-left: 0;
+  }
+  .communities__title {
+    margin-bottom: 40px;
+  }
   .communities__header {
     flex-direction: column;
     align-items: flex-start;
@@ -50,5 +56,6 @@
   .cards {
     grid-template-columns: repeat(auto-fit, 335px);
     grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+    grid-template-columns: 1fr 1fr;
   }
 }
