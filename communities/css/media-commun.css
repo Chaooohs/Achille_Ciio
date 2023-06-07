@@ -35,7 +35,7 @@
     font-size: clamp(36px, 4.9cqi, 48px);
   }
   .cards {
-    grid-template-columns: repeat(auto-fit, 258px);
+    grid-template-columns: repeat(auto-fit, 400px);
   }
 }
 @media (max-width: 768px) {
