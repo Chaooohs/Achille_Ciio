@@ -364,7 +364,7 @@ body {
 .four__select {
   font-weight: 400;
   font-size: 128px;
-  line-height: 154px;
+  line-height: 120.3%; /* 154/128 */
   color: #181A20;
   width: 100%;
   margin: 80px 0;

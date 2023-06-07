@@ -202,6 +202,11 @@
 
   // -block four ----------------
 
+  .four__select {
+    font-size: 58px;
+    margin: 40px 0;
+  }
+
   .cards {
     display: none;
   }
@@ -210,8 +215,15 @@
     display: block;
   }
 
+  .card {
+    width: 301px;
+    margin: 0 auto;
+  }
+
   .carouseltwo-img {
     grid-column: 1/3;
+    height: 180px;
+    object-fit: cover;
   }
 }
 

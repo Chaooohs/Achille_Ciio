@@ -430,7 +430,7 @@ $double-spanish-white: #DFD8BF;
   &__select {
     font-weight: 400;
     font-size: 128px;
-    line-height: 154px;
+    line-height: 120.3%; /* 154/128 */
     color: $mirage;
 
     width: 100%;
