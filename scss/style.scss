@@ -242,7 +242,8 @@ $double-spanish-white: #DFD8BF;
   &__description {
     font-weight: 700;
     font-size: 116px;
-    line-height: 103.4%; /* 120/116 */
+    line-height: 103.4%;
+    /* 120/116 */
     text-align: center;
     margin-bottom: 110px;
     color: #FAFAFA;
@@ -361,14 +362,16 @@ $double-spanish-white: #DFD8BF;
   &__bee-one {
     font-weight: 400;
     font-size: 128px;
-    line-height: 120.3%; /* 154/128 */
+    line-height: 120.3%;
+    /* 154/128 */
     color: $mirage;
   }
 
   &__bee-two {
     font-weight: 400;
     font-size: 128px;
-    line-height: 120.3%; /* 154/128 */
+    line-height: 120.3%;
+    /* 154/128 */
     color: rgba(255, 255, 255, 0.5);
     opacity: 0.8;
   }
@@ -430,7 +433,8 @@ $double-spanish-white: #DFD8BF;
   &__select {
     font-weight: 400;
     font-size: 128px;
-    line-height: 120.3%; /* 154/128 */
+    line-height: 120.3%;
+    /* 154/128 */
     color: $mirage;
 
     width: 100%;
@@ -439,11 +443,6 @@ $double-spanish-white: #DFD8BF;
 
   &__carousel {
     display: none;
-
-    .carousel-item {
-      width: 90%;
-      left: 6%;
-    }
 
     // -carousel-indicators -----------------------------
     .carousel-indicators {
