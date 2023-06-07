@@ -1,3 +1,8 @@
+@media (max-width: 1440px) {
+  .header-mobile {
+    display: none;
+  }
+}
 @media (max-width: 1024px) {
   .f-head {
     font-size: 14px;
@@ -9,15 +14,6 @@
   }
   .wrapper {
     padding: 100px 80px;
-  }
-  .header {
-    padding: 30px 50px 29px 88px;
-  }
-  .header__logo {
-    width: 122px;
-    height: 30px;
-    align-self: center;
-    margin-right: 33px;
   }
   .one {
     background: url("../img/back/back-tablet.jpg") 0 0/cover no-repeat;
@@ -82,11 +78,10 @@
     padding: 0 50px 0 0px;
   }
   .header {
-    height: 102px;
-  }
-  .header__nav,
-  .header__contact {
     display: none;
+  }
+  .header-mobile {
+    display: block;
   }
   .slaider .carouselone-img {
     width: 87%;

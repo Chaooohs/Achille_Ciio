@@ -1,3 +1,9 @@
+@media (max-width: 1440px) {
+  .header-mobile {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
 
   // -fonts -----------------
@@ -14,18 +20,6 @@
   // -common -----------------
   .wrapper {
     padding: 100px 80px;
-  }
-
-  // -header -----------------
-  .header {
-    padding: 30px 50px 29px 88px;
-
-    &__logo {
-      width: 122px;
-      height: 30px;
-      align-self: center;
-      margin-right: 33px;
-    }
   }
 
   // -block one ---------------
@@ -117,12 +111,11 @@
 
   // -header ---------------
   .header {
-    height: 102px;
+    display: none;
   }
 
-  .header__nav,
-  .header__contact {
-    display: none;
+  .header-mobile {
+    display: block;
   }
 
   // -block three --------------

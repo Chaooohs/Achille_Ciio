@@ -1,3 +1,9 @@
+@media (max-width: 1440px) {
+  .header-mobile {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
 
   // -fonts -----------------
@@ -30,6 +36,14 @@
 }
 
 @media (max-width: 992px) {
+
+  .header {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+  }
 
   .communities__title {
     font-size: clamp(36px, 4.9cqi, 48px);

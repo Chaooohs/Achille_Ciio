@@ -198,6 +198,22 @@ body {
 
 /* #endregion */
 
+/* #region // -header-mobile */
+
+.header-mobile {
+  height: 102px;
+  background-color: $white;
+  padding: 36px 20px;
+
+  &__logo {
+    width: 122px;
+    height: 30px;
+  }
+}
+
+
+/* #endregion */
+
 /* #region // -one */
 
 .one {

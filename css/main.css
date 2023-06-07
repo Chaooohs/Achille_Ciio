@@ -175,6 +175,18 @@ body {
 }
 
 /* #endregion */
+/* #region // -header-mobile */
+.header-mobile {
+  height: 102px;
+  background-color: #fff;
+  padding: 36px 20px;
+}
+.header-mobile__logo {
+  width: 122px;
+  height: 30px;
+}
+
+/* #endregion */
 /* #region // -one */
 .one {
   container-type: inline-size;
