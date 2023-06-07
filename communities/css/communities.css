@@ -4,17 +4,23 @@
   padding: 120px 135px;
 }
 .communities__header {
+  container-type: line-size;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
   margin-bottom: 120px;
 }
 .communities__title {
   font-weight: 400;
-  font-size: 64px;
+  font-size: clamp(48px, 4.9cqi, 64px);
   line-height: 50px;
   color: #181A20;
   margin-top: 32px;
+}
+.communities__details {
+  padding-left: 60px;
 }
 .communities__search {
   display: flex;
