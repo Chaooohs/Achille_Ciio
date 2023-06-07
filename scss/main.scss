@@ -31,6 +31,8 @@
 
 /* #endregion */
 
+@import "./_variables.scss";
+
 html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -62,18 +64,6 @@ body {
   display: flex;
   column-gap: 30px;
 }
-
-/* #endregion */
-
-/* #region // -variables */
-
-$white: #fff;
-$black: #000;
-$mirage: #181A20;
-$baltic-sea: #262A34;
-$merino: #F4F1E7;
-$medium-grey: #7D7D7D;
-$double-spanish-white: #DFD8BF;
 
 /* #endregion */
 
@@ -474,7 +464,7 @@ $double-spanish-white: #DFD8BF;
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 370px);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
   column-gap: 28px;
   row-gap: 40px;

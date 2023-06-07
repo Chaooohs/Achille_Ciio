@@ -1,0 +1,61 @@
+@import "../../scss/variables";
+
+.communities {
+  padding: 120px 135px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 50px;
+    color: $mirage;
+    margin-top: 32px;
+  }
+
+  &__search {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__wrap-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__wrap-select {
+    position: relative;
+  }
+
+  &__wrap-select::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    background: url('../../img/icon/form-drop-down.svg') 0 0 / auto auto no-repeat;
+  }
+
+  &__select {
+    width: 142px;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid #C4C4C4;
+    ;
+  }
+
+  &__label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: $medium-grey;
+    padding-top: 12px;
+  }
+}

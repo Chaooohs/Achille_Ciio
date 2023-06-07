@@ -23,6 +23,8 @@
   font-display: swap;
 }
 /* #endregion */
+/* #region // -variables */
+/* #endregion */
 html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -55,8 +57,6 @@ body {
        column-gap: 30px;
 }
 
-/* #endregion */
-/* #region // -variables */
 /* #endregion */
 /* #region // -fonts */
 .f-head {
@@ -401,7 +401,7 @@ body {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 370px);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
   -moz-column-gap: 28px;
        column-gap: 28px;
