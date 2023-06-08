@@ -73,6 +73,14 @@
 .content__list {
   width: 38%;
 }
+.content__option {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  background-color: #fff;
+  padding: 30px 40px;
+}
 
 .map {
   width: 63cqw;
@@ -81,6 +89,25 @@
 .map__frame {
   width: 100%;
   height: 100%;
+}
+
+.form-check {
+  width: 200px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+}
+
+.form-check-input {
+  box-shadow: none;
+}
+
+.form-check-label {
+  margin-left: 32px;
+}
+
+.form-check-label-one {
+  margin-bottom: 8px;
 }
 
 .select {

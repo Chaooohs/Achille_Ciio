@@ -82,6 +82,14 @@
   &__list {
     width: 38%;
   }
+
+  &__option {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    background-color: $white;
+    padding: 30px 40px;
+  }
 }
 
 .map {
@@ -94,8 +102,31 @@
   }
 }
 
+// -check bootstrap -----------------------
+
+.form-check {
+  width: 200px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+}
+
+.form-check-input {
+  box-shadow: none;
+}
+
+.form-check-label {
+  margin-left: 32px;
+}
+
+.form-check-label-one {
+  margin-bottom: 8px;
+}
+
+
 .select {
   width: 88px;
+
   &__wrap::after {
     width: 16px;
     height: 16px;
@@ -104,7 +135,8 @@
 
   &__body-black {
     color: $mirage;
-    border-bottom: 0.5px solid #C4C4C4;;
+    border-bottom: 0.5px solid #C4C4C4;
+    ;
   }
 
   &__label {}
