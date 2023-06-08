@@ -623,9 +623,13 @@ body {
   margin-bottom: 80px;
 }
 .footer__column {
+  display: flex;
+  flex-direction: column;
   width: 128px;
 }
 .footer__feedback {
+  display: flex;
+  flex-direction: column;
   margin-top: 48px;
 }
 .footer__feedback-title {

@@ -157,6 +157,12 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .footer__under {
+    width: 100%;
+    justify-content: space-between;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
 }
 @media (max-width: 450px) {
   .content {
@@ -327,10 +333,5 @@
   }
   .footer__column {
     width: 100%;
-  }
-  .footer__under {
-    -moz-column-gap: 0;
-         column-gap: 0;
-    justify-content: space-between;
   }
 }

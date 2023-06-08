@@ -1,0 +1,14 @@
+@import "../../scss/variables";
+
+@media (max-width: 1440px) {
+
+  // -common -----------------
+  .wrapper {
+    padding: 100px 80px;
+  }
+
+  // -block header -----------
+  .header-mobile {
+    display: none;
+  }
+}
