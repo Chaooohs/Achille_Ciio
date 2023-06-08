@@ -71,10 +71,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-.select__wrap {
+.select__wrap, .select__wrap-black {
   position: relative;
 }
-.select__wrap::after {
+.select__wrap::after, .select__wrap-black::after {
   content: "";
   position: absolute;
   top: 0;

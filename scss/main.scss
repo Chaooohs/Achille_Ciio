@@ -80,11 +80,13 @@ body {
   display: flex;
   flex-direction: column;
 
-  &__wrap {
+  &__wrap,
+  &__wrap-black {
     position: relative;
   }
 
-  &__wrap::after {
+  &__wrap::after,
+  &__wrap-black::after {
     content: '';
     position: absolute;
     top: 0;

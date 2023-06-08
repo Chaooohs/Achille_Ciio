@@ -1,5 +1,12 @@
 /* #region // -variables */
 /* #endregion */
+.f-search-card {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  color: #7D7D7D;
+}
+
 /* #region // -blcok search form */
 .search {
   background-color: #262A34;
@@ -8,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 120px 20px 60px;
+  padding: 120px 110px 60px;
 }
 
 .select__body {
@@ -23,23 +30,23 @@
 }
 
 .select:nth-child(1) {
-  width: 142px;
+  width: 101px;
 }
 
 .select:nth-child(2) {
-  width: 129px;
+  width: 81px;
 }
 
 .select:nth-child(3) {
-  width: 138px;
+  width: 83px;
 }
 
 .select:nth-child(4) {
-  width: 123px;
+  width: 101px;
 }
 
 .select:nth-child(5) {
-  width: 94px;
+  width: 82px;
 }
 
 .select:nth-child(6) {
@@ -66,7 +73,7 @@
 }
 
 /* #endregion */
-/* #region map */
+/* #region main */
 .content {
   display: flex;
 }
@@ -76,15 +83,71 @@
 .content__option {
   display: flex;
   align-items: center;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  justify-content: space-between;
   background-color: #fff;
   padding: 30px 40px;
 }
 
+.search__card {
+  display: flex;
+  padding: 30px 0 30px 30px;
+}
+
+.search__image {
+  width: 200px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.search__descript {
+  padding: 30px 0 30px 30px;
+}
+
+.search__descript H4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181A20;
+}
+
+.search__el {
+  margin-bottom: 4px;
+}
+
+.search__el2 {
+  margin-bottom: 30px;
+}
+
+.search__el3 {
+  margin-bottom: 4px;
+}
+
+.search__el4 {
+  margin-bottom: 30px;
+}
+
+.search__el5 {
+  margin-bottom: 30px;
+}
+
+.search__e6 {
+  margin-bottom: 16px;
+}
+
+.search__descript a {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  color: #181A20;
+}
+
+.search__card:hover {
+  background-color: #f0f0f0;
+}
+
 .map {
   width: 63cqw;
-  height: 57cqw;
 }
 .map__frame {
   width: 100%;
@@ -96,14 +159,22 @@
   height: 41px;
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+
+.form-switch {
+  padding-left: 1.7em;
 }
 
 .form-check-input {
   box-shadow: none;
+  cursor: pointer;
+  box-shadow: none !important;
 }
 
 .form-check-label {
   margin-left: 32px;
+  cursor: pointer;
 }
 
 .form-check-label-one {
@@ -113,7 +184,7 @@
 .select {
   width: 88px;
 }
-.select__wrap::after {
+.select__wrap-black::after {
   width: 16px;
   height: 16px;
   background: url("../img/icon/drop-down-black.svg") 0 0/auto auto no-repeat;
@@ -122,4 +193,5 @@
   color: #181A20;
   border-bottom: 0.5px solid #C4C4C4;
 }
+
 /* #endregion */
