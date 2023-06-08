@@ -28,20 +28,8 @@
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-.communities__wrap-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.select__wrap {
-  position: relative;
-}
 
 .select__wrap::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 16px;
   height: 16px;
   pointer-events: none;

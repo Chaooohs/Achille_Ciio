@@ -1,2 +1,60 @@
 /* #region // -variables */
 /* #endregion */
+/* #region // -blcok search form */
+.search {
+  background-color: #262A34;
+}
+.search__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 135px 60px;
+}
+
+.select {
+  margin-right: 33px;
+}
+.select__body {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-bottom: 0.5px solid #F0F0F0;
+}
+.select__wrap::after {
+  background: url("../img/icon/drop-down-white.svg") 0 0/auto auto no-repeat;
+}
+
+.select:nth-child(1) {
+  width: 142px;
+}
+
+.select:nth-child(2) {
+  width: 129px;
+}
+
+.select:nth-child(3) {
+  width: 138px;
+}
+
+.select:nth-child(4) {
+  width: 123px;
+}
+
+.select:nth-child(5) {
+  width: 94px;
+}
+
+.select:nth-child(6) {
+  width: 73px;
+}
+
+.select:nth-child(7) {
+  width: 88px;
+}
+
+.btn-search {
+  width: 48px;
+  height: 48px;
+}
+
+/* #endregion */
