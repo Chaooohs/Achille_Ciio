@@ -95,7 +95,8 @@ body {
     background: url('../../img/icon/form-drop-down.svg') 0 0 / auto auto no-repeat;
   }
 
-  &__body {
+  &__body,
+  &__body-black {
     width: 100%;
     padding-bottom: 12px;
     border-bottom: 0.5px solid #C4C4C4;
