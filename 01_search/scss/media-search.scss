@@ -85,7 +85,17 @@
 
 @media (max-width: 768px) {
 
+  // -search ---------
+
+  .search-mobile__select-placeholder {
+    font-size: clamp(20px, 5cqi, 36px);
+  }
+
   // -map ------------
+
+  .map__card-box {
+    background: url('../../img/back/back-map.jpg') 0 0 / cover no-repeat;
+  }
 
   .map__card {
     flex: 0 0 100%;
@@ -93,5 +103,14 @@
 }
 
 @media (max-width: 375px) {
-  
+
+  // -search -----------------
+  .search-mobile {
+    height: 96px;
+  }
+
+  .search-mobile__burger-btn {
+    width: 48px;
+    height: 48px;
+  }
 }
