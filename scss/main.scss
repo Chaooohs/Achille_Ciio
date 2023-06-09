@@ -287,7 +287,6 @@ body {
   background: url('../img/back/back-laptop.jpg') 0 0 / cover no-repeat;
   padding: 150px 0;
 
-  // padding: 10.5% 0;
   &__box {
     max-width: 794px;
     display: flex;
@@ -341,11 +340,10 @@ body {
     right: 0;
     width: 24px;
     height: 24px;
-
     display: block;
     pointer-events: none;
     /* // -снимает клик с треугольника */
-    background: url('../img/icon/drop_down.svg') 50% 50% / 100% no-repeat;
+    background: url('../img/icon/drop-down-white.svg') center / 100% no-repeat;
   }
 
   &__label {
@@ -484,7 +482,7 @@ body {
     display: block;
     pointer-events: none;
     transform: translateY(-50%);
-    background: url('../img/icon/drop-down-black.svg') 0 0 / 100% no-repeat;
+    background: url('../img/icon/drop-down-black.svg') center / 100% no-repeat;
   }
 
   &__select {
@@ -723,7 +721,7 @@ body {
     right: 0;
     width: 18px;
     height: 18px;
-    background: url('../img/icon/form-drop-down.svg') 0 0 / auto auto no-repeat;
+    background: url('../img/icon/drop-down-black.svg') center / 100% no-repeat;
     pointer-events: none; //* чтобы не препятствовать клику по select
   }
 

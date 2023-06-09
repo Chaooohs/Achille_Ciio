@@ -1,6 +1,6 @@
 @import "../../scss/variables";
 
-/* #region // -blcok search */
+/* #region // -block search */
 
 .search {
   display: flex;
@@ -20,7 +20,7 @@
     }
 
     &__wrap::after {
-      background: url('../../img/icon/drop-down-white.svg') 0 0 / auto auto no-repeat;
+      background: url('../../img/icon/drop-down-white.svg') center / 100% no-repeat;
     }
   }
 
@@ -72,7 +72,7 @@
 
 /* #endregion */
 
-/* #region // -search mobile ------------- */
+/* #region // -search mobile */
 
 .search-mobile {
   width: 100%;
@@ -141,7 +141,7 @@
 
 /* #endregion */
 
-/* #region // -map ------------ */
+/* #region // -map */
 
 .map {
   display: flex;
@@ -223,7 +223,7 @@
     width: 16px;
     height: 16px;
     pointer-events: none;
-    background: url('../../img/icon/drop-down-black.svg') center / 16px 16px no-repeat;
+    background: url('../../img/icon/drop-down-black.svg') center / 100% no-repeat;
   }
 
   &__select-body {
