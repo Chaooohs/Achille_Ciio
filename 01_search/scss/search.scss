@@ -240,12 +240,11 @@
 
   // - card -----------------------------------
 
-  &__card-box {}
-
   &__card {
     width: 100%;
     display: flex;
     padding: 30px 0 30px 30px;
+    background-color: $white;
   }
 
   &__card:hover {

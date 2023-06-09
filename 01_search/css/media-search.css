@@ -54,20 +54,18 @@
     flex-wrap: wrap;
     row-gap: 20px;
     padding: 20px;
+    background: url("../../img/back/back-map.jpg") 0 0/cover no-repeat;
   }
   .map__card {
-    flex: 0 0 50%;
+    width: 50%;
   }
 }
 @media (max-width: 768px) {
   .search-mobile__select-placeholder {
     font-size: clamp(20px, 5cqi, 36px);
   }
-  .map__card-box {
-    background: url("../../img/back/back-map.jpg") 0 0/cover no-repeat;
-  }
   .map__card {
-    flex: 0 0 100%;
+    width: 60%;
   }
 }
 @media (max-width: 375px) {
@@ -77,5 +75,8 @@
   .search-mobile__burger-btn {
     width: 48px;
     height: 48px;
+  }
+  .map__card {
+    width: 100%;
   }
 }

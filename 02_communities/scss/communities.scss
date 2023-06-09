@@ -30,31 +30,43 @@
     display: flex;
     column-gap: 30px;
   }
-}
 
-// -element select ---------------------------
+  // -element select ---------------------------
+  &__select-wrap {
+    width: 142px;
+    display: flex;
+    flex-direction: column;
+  }
 
-.select__wrap::after {
-  width: 16px;
-  height: 16px;
-  pointer-events: none;
-  background: url('../../img/icon/form-drop-down.svg') 0 0 / auto auto no-repeat;
-}
+  &__select-placeholder {
+    position: relative;
+  }
 
-.select__body {
-  width: 142px;
-  padding-bottom: 12px;
-  border-bottom: 0.5px solid #C4C4C4;
-  ;
-}
+  &__select-placeholder::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    background: url('../../img/icon/drop-down-black.svg') center / 16px 16px no-repeat;
+  }
 
-.select__label {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.03em;
-  color: $medium-grey;
-  padding-top: 12px;
+  &__select-body {
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid #C4C4C4;
+  }
+
+  &__select-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: $medium-grey;
+    padding-top: 12px;
+  }
 }
 
 // -block cards ------------------------------------
@@ -69,5 +81,5 @@
   left: 20px;
   width: 132px;
   height: 24px;
-  background: url('../img/other/sale.png') 0 0 / auto auto no-repeat;
+  background: url('../../img/other/sale.png') 0 0 / auto auto no-repeat;
 }

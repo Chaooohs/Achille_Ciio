@@ -81,7 +81,7 @@
     flex-direction: column;
     row-gap: 20px;
   }
-  .select__body {
+  .communities__select-wrap {
     width: 100%;
   }
   .cards {
