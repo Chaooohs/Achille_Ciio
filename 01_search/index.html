@@ -10,36 +10,37 @@
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="./css/search.css">
+  <link rel="stylesheet" href="../css/media.css">
   <link rel="stylesheet" href="./css/media-search.css">
 </head>
 
 <body>
-  <header> <!--- block Header -->
-    <div class="header">
-      <a class="header__logo" href="../index.html">
-        <img src="../img/logo/Achille_Ciio.svg" alt="logo">
-      </a>
-      <div class="header__nav">
-        <a class="header__link f-head" href="#">Search</a>
-        <a class="header__link f-head" href="../02_communities/index.html">Communities</a>
-        <a class="header__link f-head" href="">Quick Move-ins</a>
-        <a class="header__link f-head" href="">Open Houses</a>
-        <a class="header__link f-head" href="">About</a>
+  <div class="page">
+    <header> <!--- block Header -->
+      <div class="header">
+        <a class="header__logo" href="../index.html">
+          <img src="../img/logo/Achille_Ciio.svg" alt="logo">
+        </a>
+        <div class="header__nav">
+          <a class="header__link f-head" href="#">Search</a>
+          <a class="header__link f-head" href="../02_communities/index.html">Communities</a>
+          <a class="header__link f-head" href="">Quick Move-ins</a>
+          <a class="header__link f-head" href="">Open Houses</a>
+          <a class="header__link f-head" href="">About</a>
+        </div>
+        <div class="header__contact">
+          <span class="header__tel f-head">0 00 000 000 .CITY</span>
+          <a class="header__link f-head" href="">Contact</a>
+        </div>
       </div>
-      <div class="header__contact">
-        <span class="header__tel f-head">0 00 000 000 .CITY</span>
-        <a class="header__link f-head" href="">Contact</a>
+      <div class="header-mobile">
+        <a class="header-mobile__logo" href="../index.html">
+          <img src="../img/logo/Logo.svg" alt="logo">
+        </a>
       </div>
-    </div>
-    <div class="header-mobile">
-      <a class="header-mobile__logo" href="../index.html">
-        <img src="../img/logo/Logo.svg" alt="logo">
-      </a>
-    </div>
-  </header>
-  <form> <!--- block search-->
-    <div class="search"> 
-      <div class="search__content">
+    </header>
+    <form> <!--- block search-->
+      <div class="search">
         <div class="select">
           <div class="select__wrap">
             <select class="select__body f-head">
@@ -48,7 +49,6 @@
           </div>
           <label class="select__label f-label">Community</label>
         </div>
-
         <div class="select">
           <div class="select__wrap">
             <select class="select__body f-head">
@@ -57,7 +57,6 @@
           </div>
           <label class="select__label f-label">City</label>
         </div>
-
         <div class="select">
           <div class="select__wrap">
             <select class="select__body f-head">
@@ -66,7 +65,6 @@
           </div>
           <label class="select__label f-label">Type</label>
         </div>
-
         <div class="select">
           <div class="select__wrap">
             <select class="select__body f-head">
@@ -75,7 +73,6 @@
           </div>
           <label class="select__label f-label">Buy/Rent</label>
         </div>
-
         <div class="select">
           <div class="select__wrap">
             <select class="select__body f-head">
@@ -88,7 +85,6 @@
           </div>
           <label class="select__label f-label">Beds</label>
         </div>
-
         <div class="select">
           <div class="select__wrap">
             <select class="select__body f-head">
@@ -100,7 +96,6 @@
           </div>
           <label class="select__label f-label">Baths</label>
         </div>
-
         <div class="select">
           <div class="select__wrap">
             <select class="select__body f-head">
@@ -109,199 +104,243 @@
           </div>
           <label class="select__label f-label">Sq.Ft.</label>
         </div>
-
         <input type="reset" id="reset1" class="reset f-comm">
         <label for="reset1" class="reset__label f-comm">Clear All</label>
 
         <input class="btn-search" type="search">
       </div>
-    </div>
-  </form>
-  <main> <!--- block map-->
-    <div class="content">
-
+      <div class="search-mobile">
+        <div class=" search-mobile__select-wrap">
+          <div class="search-mobile__select-placeholder"> Find Your Place
+            <select class="search-mobile__select-body">
+              <option value=""></option>
+              <option value="">Salt Lake City</option>
+              <option value="">West Valley City</option>
+              <option value="">Provo</option>
+              <option value="">West Jordan</option>
+              <option value="">Orem</option>
+            </select>
+          </div>
+        </div>
+        <div class="search-mobile__burger-btn" >
+          <img src="../img/icon/search-burger.svg" alt="btn">
+        </div>
+      </div>
+    </form>
+    <main> <!--- block map-->
       <div class="map">
-        <iframe class="map__frame"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6181379.50477989!2d-117.19341142920864!3d40.844397102680354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f71d7f60bc5b%3A0x72295629e1a2a90!2z0KHQtdCy0LXRgCDQodC-0LvRgiDQm9C10LnQuiwg0K7RgtCwLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1686237395989!5m2!1sru!2sua"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-      <div class="content__list">
-        <div class="content__option">
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-            <label class="form-check-label f-comm" for="flexSwitchCheckDefault">
-              <p class="form-check-label-one f-comm">27 Communities</p>
-              <p class="f-label">Listings</p>
-            </label>
-          </div>
-          <div class='select'>
-            <div class='select__wrap-black'>
-              <select class='select__body-black f-comm'>
-                <option value='any'>Any</option>
-              </select>
-            </div>
-            <label class='select__label f-label'>Sort by</label>
-          </div>
+        <div class="map__content">
+          <iframe class="map__frame"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6181379.50477989!2d-117.19341142920864!3d40.844397102680354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f71d7f60bc5b%3A0x72295629e1a2a90!2z0KHQtdCy0LXRgCDQodC-0LvRgiDQm9C10LnQuiwg0K7RgtCwLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1686237395989!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="search__card">
-          <img class="search__image" src="../img/apartmant/image1.jpg" alt="img">
-          <div class="search__descript">
-            <h4 class="search__el1">the Bee</h4>
-            <p class="search__el2 f-search-card">Single Family Homes</p>
-            <p class="search__el3 f-search-card">3 __ 4 bds, 2.5 __ 4.5 ba,</p>
-            <p class="search__el4 f-search-card">2813 sq.ft.</p>
-            <p class="search__el5 f-search-card">700s Deseret Drive, <br>
-              Kaysville Utah 84037</p>
-            <p class="search__el6 f-search-card">Now Selling/ 2 Units Avaiable</p>
-            <a class="" href="#!">See More</a>
-          </div>
-        </div>
-        <div class="search__card">
-          <img class="search__image" src="../img/apartmant/image2.jpg" alt="img">
-          <div class="search__descript">
-            <h4 class="search__el1">the Ciio</h4>
-            <p class="search__el2 f-search-card">Single Family Homes</p>
-            <p class="search__el3 f-search-card">3 __ 4 bds, 2.5 __ 4.5 ba,</p>
-            <p class="search__el4 f-search-card">2813 sq.ft.</p>
-            <p class="search__el5 f-search-card">700s Deseret Drive, <br>
-              Kaysville Utah 84037</p>
-            <p class="search__el6 f-search-card">Now Selling/ 2 Units Avaiable</p>
-            <a class="" href="#!">See More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-  <section> <!--- block Form-->
-    <div class="form">
-      <div class="wrapper">
-        <div class="content">
-          <div class="form__left">
-            <h2 class="chapter f-comm">Did we catch your eye?</h2>
-            <p class="form__descript f-descritp">We enjoy connecting with new people. Reach out to us by filling out
-              the
-              form, sending an email, or simply giving us a call.</p>
-            <div class="f-comm fomr__tel-mob">Phone / Email</div>
-            <a class="f-middle six__tel" href="tel:000000000">0 00 000 000 .CITY</a>
-            <a class="f-middle" href="mailto:achille@ciio.com">achille@ciio.com</a>
-          </div>
-          <!-- -form -->
-          <form class="form__f">
-            <div class="form__wrap">
-              <input type="text" id="el1" placeholder="First name" class="f-head">
-              <label for="el1">Hello, my first name is</label>
+        <div class="map__list">
+          <div class="map__option">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+              <label class="form-check-label f-comm" for="flexSwitchCheckDefault">
+                <p class="form-check-label-one f-comm">27 Communities</p>
+                <p class="f-label">Listings</p>
+              </label>
             </div>
-            <div class="form__wrap">
-              <input type="text" id="el2" placeholder="Last name">
-              <label for="el2">Hello, my last name is</label>
-            </div>
-            <div class="form__wrap">
-              <input type="email" id="el3" placeholder="example@gamil.com">
-              <label for="el3">Contact me at</label>
-            </div>
-            <div class="form__wrap">
-              <div class="form__placeholder f-head">
-                Please Select
-                <select id="el4">
-                  <option value="type"></option>
-                  <option value="type">Appartment</option>
-                  <option value="type">House</option>
-                  <option value="type">Land plot</option>
+            <div class="map__select-wrap">
+              <div class="map__select-placeholder"> Any
+                <select class="map__select-body f-comm">
+                  <option value=""></option>
+                  <option value="">Appartment</option>
+                  <option value="">House</option>
                 </select>
               </div>
-              <label for="el4">I’d like to</label>
-            </div>
-            <div class="form__wrap">
-              <div class="form__placeholder f-head">
-                Please Select
-                <select name="#" id="el5" aria-placeholder="Please Select">
-                  <option value="type"></option>
-                  <option value="type">Appartment</option>
-                  <option value="type">House</option>
-                  <option value="type">Land plot</option>
-                </select>
-              </div>
-              <label for="el5">Community of interest</label>
-            </div>
-            <div class="form__wrap">
-              <input type="tel" id="el6" placeholder="0 00 000 000">
-              <label for="el6">Phone</label>
-            </div>
-            <div class="form__wrap">
-              <div class="form__placeholder f-head">
-                Please Select
-                <select name="#" id="el5" aria-placeholder="Please Select">
-                  <option value="type"></option>
-                  <option value="type">Yes</option>
-                  <option value="type">No</option>
-                </select>
-              </div>
-              <label for="el5">Are you working with an agent?</label>
-            </div>
-            <div class="form__wrap">
-              <div class="form__placeholder f-head">
-                Please Select
-                <select name="#" id="el5" aria-placeholder="Please Select">
-                  <option value="type"></option>
-                  <option value="type">Yes</option>
-                  <option value="type">No</option>
-                </select>
-              </div>
-              <label for="el5">Are you an agent?</label>
-            </div>
-            <div class="form__submit f-arrow">
-              <input type="submit" value="submit">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer> <!--- block Footer-->
-    <div class="footer">
-      <div class="wrapper">
-        <div class="footer__logo">
-          <a href="../index.html"><img src="../img/logo/Achille_Ciio-white.svg" alt="logo"></a>
-        </div>
-        <nav>
-          <div class="footer__nav">
-            <div class="footer__column">
-              <a class="f-footer" href="#">Search</a>
-              <a class="f-footer" href="../02_communities/index.html">Communities</a>
-              <a class="f-footer" href="">Quick Move-ins</a>
-              <a class="f-footer" href="">Open Houses</a>
-            </div>
-            <div class="footer__column">
-              <a class="f-footer" href="">About</a>
-              <a class="f-footer" href="">Careers</a>
-              <a class="f-footer" href="">Blog</a>
-              <a class="f-footer" href="">Contact</a>
-            </div>
-            <div class="footer__column">
-              <div class="f-footer">Follow us</div>
-              <a class="f-footer" href="https://www.instagram.com" target="_blank">Instagram</a>
-              <a class="f-footer" href="https://www.youtube.com" target="_blank">Youtube</a>
-              <a class="f-footer" href="https://uk-ua.facebook.com" target="_blank">Facebook</a>
-            </div>
-            <div class="footer__feedback">
-              <div class="footer__feedback-title f-footer">Let's Talk</div>
-              <a class="f-footer footer__tel" href="tel:1866744">1.866.744.CITY</a>
-              <a class="f-footer" href="mailto:hello@builtbycw.com">hello@builtbycw.com</a>
+              <label class="map__select-label f-label">Sort by</label>
             </div>
           </div>
-        </nav>
-        <div class="footer__descript">
-          All for sale product is listed by Ciio
-        </div>
-        <div class="footer__under">
-          <span>©2022</span>
-          <span>All rights reserved.</span>
+          <div class="map__card-box">
+            <div class="map__card">
+              <img class="map__image" src="../img/apartmant/image1.jpg" alt="img">
+              <div class="map__descript">
+                <h4 class="map__el1">the Bee</h4>
+                <p class="map__el2 f-search-card">Single Family Homes</p>
+                <p class="map__el3 f-search-card">3 __ 4 bds, 2.5 __ 4.5 ba,</p>
+                <p class="map__el4 f-search-card">2813 sq.ft.</p>
+                <p class="map__el5 f-search-card">700s Deseret Drive, <br>
+                  Kaysville Utah 84037</p>
+                <p class="map__el6 f-search-card">Now Selling/ 2 Units Avaiable</p>
+                <a class="" href="#!">See More</a>
+              </div>
+            </div>
+            <div class="map__card">
+              <img class="map__image" src="../img/apartmant/image2.jpg" alt="img">
+              <div class="map__descript">
+                <h4 class="map__el1">the Ciio</h4>
+                <p class="map__el2 f-search-card">Single Family Homes</p>
+                <p class="map__el3 f-search-card">3 __ 4 bds, 2.5 __ 4.5 ba,</p>
+                <p class="map__el4 f-search-card">2813 sq.ft.</p>
+                <p class="map__el5 f-search-card">700s Deseret Drive, <br>
+                  Kaysville Utah 84037</p>
+                <p class="map__el6 f-search-card">Now Selling/ 2 Units Avaiable</p>
+                <a class="" href="#!">See More</a>
+              </div>
+            </div>
+            <div class="map__card">
+              <img class="map__image" src="../img/apartmant/image2.jpg" alt="img">
+              <div class="map__descript">
+                <h4 class="map__el1">the Ciio</h4>
+                <p class="map__el2 f-search-card">Single Family Homes</p>
+                <p class="map__el3 f-search-card">3 __ 4 bds, 2.5 __ 4.5 ba,</p>
+                <p class="map__el4 f-search-card">2813 sq.ft.</p>
+                <p class="map__el5 f-search-card">700s Deseret Drive, <br>
+                  Kaysville Utah 84037</p>
+                <p class="map__el6 f-search-card">Now Selling/ 2 Units Avaiable</p>
+                <a class="" href="#!">See More</a>
+              </div>
+            </div>
+            <div class="map__card">
+              <img class="map__image" src="../img/apartmant/image2.jpg" alt="img">
+              <div class="map__descript">
+                <h4 class="map__el1">the Ciio</h4>
+                <p class="map__el2 f-search-card">Single Family Homes</p>
+                <p class="map__el3 f-search-card">3 __ 4 bds, 2.5 __ 4.5 ba,</p>
+                <p class="map__el4 f-search-card">2813 sq.ft.</p>
+                <p class="map__el5 f-search-card">700s Deseret Drive, <br>
+                  Kaysville Utah 84037</p>
+                <p class="map__el6 f-search-card">Now Selling/ 2 Units Avaiable</p>
+                <a class="" href="#!">See More</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </main>
+    <section> <!--- block Form-->
+      <div class="form">
+        <div class="wrapper">
+          <div class="content">
+            <div class="form__left">
+              <h2 class="chapter f-comm">Did we catch your eye?</h2>
+              <p class="form__descript f-descritp">We enjoy connecting with new people. Reach out to us by filling out
+                the
+                form, sending an email, or simply giving us a call.</p>
+              <div class="f-comm fomr__tel-mob">Phone / Email</div>
+              <a class="f-middle six__tel" href="tel:000000000">0 00 000 000 .CITY</a>
+              <a class="f-middle" href="mailto:achille@ciio.com">achille@ciio.com</a>
+            </div>
+            <!-- -form -->
+            <form class="form__f">
+              <div class="form__wrap">
+                <input type="text" id="el1" placeholder="First name" class="f-head">
+                <label for="el1">Hello, my first name is</label>
+              </div>
+              <div class="form__wrap">
+                <input type="text" id="el2" placeholder="Last name">
+                <label for="el2">Hello, my last name is</label>
+              </div>
+              <div class="form__wrap">
+                <input type="email" id="el3" placeholder="example@gamil.com">
+                <label for="el3">Contact me at</label>
+              </div>
+              <div class="form__wrap">
+                <div class="form__placeholder f-head">
+                  Please Select
+                  <select id="el4">
+                    <option value="type"></option>
+                    <option value="type">Appartment</option>
+                    <option value="type">House</option>
+                    <option value="type">Land plot</option>
+                  </select>
+                </div>
+                <label for="el4">I’d like to</label>
+              </div>
+              <div class="form__wrap">
+                <div class="form__placeholder f-head">
+                  Please Select
+                  <select name="#" id="el5" aria-placeholder="Please Select">
+                    <option value="type"></option>
+                    <option value="type">Appartment</option>
+                    <option value="type">House</option>
+                    <option value="type">Land plot</option>
+                  </select>
+                </div>
+                <label for="el5">Community of interest</label>
+              </div>
+              <div class="form__wrap">
+                <input type="tel" id="el6" placeholder="0 00 000 000">
+                <label for="el6">Phone</label>
+              </div>
+              <div class="form__wrap">
+                <div class="form__placeholder f-head">
+                  Please Select
+                  <select name="#" id="el5" aria-placeholder="Please Select">
+                    <option value="type"></option>
+                    <option value="type">Yes</option>
+                    <option value="type">No</option>
+                  </select>
+                </div>
+                <label for="el5">Are you working with an agent?</label>
+              </div>
+              <div class="form__wrap">
+                <div class="form__placeholder f-head">
+                  Please Select
+                  <select name="#" id="el5" aria-placeholder="Please Select">
+                    <option value="type"></option>
+                    <option value="type">Yes</option>
+                    <option value="type">No</option>
+                  </select>
+                </div>
+                <label for="el5">Are you an agent?</label>
+              </div>
+              <div class="form__submit f-arrow">
+                <input type="submit" value="submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer> <!--- block Footer-->
+      <div class="footer">
+        <div class="wrapper">
+          <div class="footer__logo">
+            <a href="../index.html"><img src="../img/logo/Achille_Ciio-white.svg" alt="logo"></a>
+          </div>
+          <nav>
+            <div class="footer__nav">
+              <div class="footer__column">
+                <a class="f-footer" href="#">Search</a>
+                <a class="f-footer" href="../02_communities/index.html">Communities</a>
+                <a class="f-footer" href="">Quick Move-ins</a>
+                <a class="f-footer" href="">Open Houses</a>
+              </div>
+              <div class="footer__column">
+                <a class="f-footer" href="">About</a>
+                <a class="f-footer" href="">Careers</a>
+                <a class="f-footer" href="">Blog</a>
+                <a class="f-footer" href="">Contact</a>
+              </div>
+              <div class="footer__column">
+                <div class="f-footer">Follow us</div>
+                <a class="f-footer" href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a class="f-footer" href="https://www.youtube.com" target="_blank">Youtube</a>
+                <a class="f-footer" href="https://uk-ua.facebook.com" target="_blank">Facebook</a>
+              </div>
+              <div class="footer__feedback">
+                <div class="footer__feedback-title f-footer">Let's Talk</div>
+                <a class="f-footer footer__tel" href="tel:1866744">1.866.744.CITY</a>
+                <a class="f-footer" href="mailto:hello@builtbycw.com">hello@builtbycw.com</a>
+              </div>
+            </div>
+          </nav>
+          <div class="footer__descript">
+            All for sale product is listed by Ciio
+          </div>
+          <div class="footer__under">
+            <span>©2022</span>
+            <span>All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

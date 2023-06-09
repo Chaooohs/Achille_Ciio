@@ -182,6 +182,13 @@ body {
   color: #7D7D7D;
 }
 
+.f-search-card {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  color: #7D7D7D;
+}
+
 /* #endregion */
 /* #region  // -header */
 .header {
