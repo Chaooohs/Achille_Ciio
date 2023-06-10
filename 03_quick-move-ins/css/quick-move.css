@@ -11,7 +11,7 @@
 }
 .quick__title {
   font-weight: 400;
-  font-size: clamp(92px, 9cqi, 120px);
+  font-size: clamp(32px, 9cqi, 120px);
   line-height: 96.7%; /* 116/120 */
   color: #181A20;
   margin-bottom: 32px;
