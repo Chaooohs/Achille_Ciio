@@ -1,7 +1,8 @@
 @import "../../scss/variables";
 
-.quick {
+/* #region //-block one */
 
+.quick {
   &__chapter {
     display: flex;
     padding: 120px 0 170px 78px;
@@ -65,3 +66,61 @@
     padding-top: 12px;
   }
 }
+
+/* #endregion */
+
+/* #region //-block cards */
+.quick {
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 120px;
+    column-gap: 30px;
+    background-color: $white;
+  }
+
+  &__card {
+    width: 370px;
+    background-color: $white;
+  }
+
+  &__image {
+    width: 370px;
+    height: 472px;
+    object-fit: cover;
+    margin-bottom: 40px;
+  }
+
+  &__unit {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $mirage;
+  }
+
+  &__table {
+    width: 100%;
+  }
+
+  &__table a {
+    margin: 8px;
+    color: $baltic-sea;
+  }
+ 
+  &__head {
+    height: 50px;
+    vertical-align: top;
+  }
+
+  &__tbody {
+    width: 70%;
+    vertical-align: middle;
+    height: 50px;
+    border-bottom: 1px solid #999999;
+  }
+
+}
+
+/* #endregion */

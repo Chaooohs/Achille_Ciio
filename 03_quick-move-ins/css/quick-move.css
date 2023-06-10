@@ -1,5 +1,6 @@
 /* #region // -variables */
 /* #endregion */
+/* #region //-block one */
 .quick__chapter {
   display: flex;
   padding: 120px 0 170px 78px;
@@ -53,3 +54,51 @@
 .quick__select-label {
   padding-top: 12px;
 }
+
+/* #endregion */
+/* #region //-block cards */
+.quick__cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 120px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  background-color: #fff;
+}
+.quick__card {
+  width: 370px;
+  background-color: #fff;
+}
+.quick__image {
+  width: 370px;
+  height: 472px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 40px;
+}
+.quick__unit {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #181A20;
+}
+.quick__table {
+  width: 100%;
+}
+.quick__table a {
+  margin: 8px;
+  color: #262A34;
+}
+.quick__head {
+  height: 50px;
+  vertical-align: top;
+}
+.quick__tbody {
+  width: 70%;
+  vertical-align: middle;
+  height: 50px;
+  border-bottom: 1px solid #999999;
+}
+
+/* #endregion */

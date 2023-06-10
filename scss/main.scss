@@ -144,6 +144,13 @@ body {
   color: $mirage;
 }
 
+.f-small {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: $medium-grey;
+}
+
 .f-descritp {
   font-weight: 400;
   // font-size: clamp(28px, 3.9cqi, 50px);
