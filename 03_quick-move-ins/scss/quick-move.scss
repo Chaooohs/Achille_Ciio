@@ -15,8 +15,8 @@
 
   &__title {
     font-weight: 400;
-    font-size: 120px;
-    line-height: 116px;
+    font-size: clamp(92px, 9cqi, 120px);
+    line-height: 96.7%; /* 116/120 */
     color: $mirage;
     margin-bottom: 32px;
   }
@@ -73,6 +73,7 @@
 .quick {
 
   &__cards {
+    container_type: inline-size;
     display: flex;
     flex-wrap: wrap;
     row-gap: 120px;
@@ -82,12 +83,15 @@
 
   &__card {
     width: 370px;
+    flex: 0 0 30%;
+    margin: 0 auto;
     background-color: $white;
   }
 
   &__image {
-    width: 370px;
-    height: 472px;
+    max-width: 370px;
+    min-width: 300px;
+    height: 42.5cqw;
     object-fit: cover;
     margin-bottom: 40px;
   }
@@ -105,7 +109,6 @@
   }
 
   &__table a {
-    margin: 8px;
     color: $baltic-sea;
   }
  
@@ -115,7 +118,7 @@
   }
 
   &__tbody {
-    width: 70%;
+    width: 65%;
     vertical-align: middle;
     height: 50px;
     border-bottom: 1px solid #999999;
