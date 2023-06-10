@@ -35,8 +35,12 @@
 
   // -cards -------------
 
+  .quick__card {
+    width: 268px;
+  }
+
   .quick__image {
-    height: 34.3cqw;
+    height: 296px;
   }
 
   .quick__tbody {
@@ -74,8 +78,8 @@
 
   // -cards -----------
 
-  .quick__card {
-    flex: 0 0 47%;
+  .cards {
+    display: grid;
   }
 }
 
@@ -106,8 +110,11 @@
 
   // -cards -----------
 
+  .cards {
+    grid-template-columns: 1fr;
+  }
   .quick__card {
-    flex: 0 0 100%;
+    width: 100%;
   }
 
   .quick__image {

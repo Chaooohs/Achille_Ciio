@@ -23,8 +23,11 @@
   .quick__right {
     width: 20%;
   }
+  .quick__card {
+    width: 268px;
+  }
   .quick__image {
-    height: 34.3cqw;
+    height: 296px;
   }
   .quick__tbody {
     width: 60%;
@@ -50,8 +53,8 @@
   .quick__select-wrap {
     width: 100%;
   }
-  .quick__card {
-    flex: 0 0 47%;
+  .cards {
+    display: grid;
   }
 }
 @media (max-width: 450px) {
@@ -72,8 +75,11 @@
     font-size: 14px;
     line-height: 17px;
   }
+  .cards {
+    grid-template-columns: 1fr;
+  }
   .quick__card {
-    flex: 0 0 100%;
+    width: 100%;
   }
   .quick__image {
     height: 428px;

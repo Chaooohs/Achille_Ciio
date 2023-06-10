@@ -47,9 +47,6 @@
   .slaider .carouselone-img {
     width: 773px;
   }
-  .cards {
-    grid-template-columns: repeat(auto-fit, 268px);
-  }
   .card__img {
     width: 268px;
     height: 240px;
@@ -103,6 +100,9 @@
   }
   .slaider__footer {
     align-items: flex-start;
+  }
+  .cards {
+    grid-template-columns: repeat(auto-fit, 268px);
   }
   .four__select {
     font-size: 80px;

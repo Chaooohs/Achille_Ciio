@@ -12,7 +12,8 @@
 .quick__title {
   font-weight: 400;
   font-size: clamp(32px, 9cqi, 120px);
-  line-height: 96.7%; /* 116/120 */
+  line-height: 96.7%;
+  /* 116/120 */
   color: #181A20;
   margin-bottom: 32px;
 }
@@ -57,18 +58,12 @@
 
 /* #endregion */
 /* #region //-block cards */
-.quick__cards {
-  container_type: inline-size;
-  display: flex;
-  flex-wrap: wrap;
+.cards {
+  container-type: inline-size;
   row-gap: 120px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-  background-color: #fff;
 }
+
 .quick__card {
-  width: 370px;
-  flex: 0 0 30%;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -96,10 +91,13 @@
   vertical-align: top;
 }
 .quick__tbody {
-  width: 65%;
   vertical-align: middle;
   height: 50px;
   border-bottom: 1px solid #999999;
+}
+
+td:nth-of-type(even) {
+  text-align: end;
 }
 
 /* #endregion */

@@ -67,9 +67,6 @@
   }
 
   // -block four ------------------
-  .cards {
-    grid-template-columns: repeat(auto-fit, 268px);
-  }
 
   .card__img {
     width: 268px;
@@ -147,6 +144,11 @@
   }
 
   // -block four ----------------
+
+  .cards {
+    grid-template-columns: repeat(auto-fit, 268px);
+  }
+
   .four__select {
     font-size: 80px;
   }
