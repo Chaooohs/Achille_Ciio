@@ -1,13 +1,5 @@
 /* #region // -variables */
 /* #endregion */
-@media (max-width: 1440px) {
-  .wrapper {
-    padding: 100px 80px;
-  }
-  .header-mobile {
-    display: none;
-  }
-}
 @media (max-width: 1024px) {
   .f-head {
     font-size: 14px;

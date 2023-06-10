@@ -1,0 +1,67 @@
+@import "../../scss/variables";
+
+.quick {
+
+  &__chapter {
+    display: flex;
+    padding: 120px 0 170px 78px;
+    background-color: $merino;
+  }
+
+  &__left {
+    width: 70%;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 116px;
+    color: $mirage;
+    margin-bottom: 32px;
+  }
+
+  &__subtitle {
+    width: 80%;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: $medium-grey;
+  }
+
+  &__right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__select-wrap {
+    width: 88px;
+  }
+
+  &__select-placeholder {
+    position: relative;
+    padding-bottom: 12px;
+  }
+
+  &__select-placeholder::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    background: url('../../img/icon/drop-down-black.svg') 0 0 / auto auto no-repeat;
+  }
+
+  &__select-body {
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: $border-bottom;
+  }
+
+  &__select-label {
+    padding-top: 12px;
+  }
+}

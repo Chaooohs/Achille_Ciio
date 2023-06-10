@@ -1,9 +1,11 @@
 /* #region // -variables */
 /* #endregion */
-@media (max-width: 1440px) {
-  .header-mobile {
+@media (min-width: 1441px) {
+  .search-mobile {
     display: none;
   }
+}
+@media (max-width: 1440px) {
   .search-mobile {
     display: none;
   }

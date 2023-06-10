@@ -1,11 +1,16 @@
 @import "../../scss/variables";
 
+@media (min-width: 1441px) {
+
+  // -block header -----------
+
+  .search-mobile {
+    display: none;
+  }
+}
 @media (max-width: 1440px) {
 
   // -block header -----------
-  .header-mobile {
-    display: none;
-  }
 
   .search-mobile {
     display: none;
