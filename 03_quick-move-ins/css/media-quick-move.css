@@ -24,8 +24,6 @@
     width: 20%;
   }
   .quick__image {
-    max-width: 268px;
-    min-width: 256px;
     height: 34.3cqw;
   }
   .quick__tbody {
@@ -52,8 +50,11 @@
   .quick__select-wrap {
     width: 100%;
   }
+  .quick__card {
+    flex: 0 0 47%;
+  }
 }
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .quick__title {
     margin-bottom: 24px;
   }
@@ -70,5 +71,11 @@
   .quick__select-label {
     font-size: 14px;
     line-height: 17px;
+  }
+  .quick__card {
+    flex: 0 0 100%;
+  }
+  .quick__image {
+    height: 428px;
   }
 }

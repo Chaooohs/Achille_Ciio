@@ -36,8 +36,6 @@
   // -cards -------------
 
   .quick__image {
-    max-width: 268px;
-    min-width: 256px;
     height: 34.3cqw;
   }
 
@@ -73,9 +71,15 @@
   .quick__select-wrap {
     width: 100%;
   }
+
+  // -cards -----------
+
+  .quick__card {
+    flex: 0 0 47%;
+  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
 
   // -block one ----------
 
@@ -91,11 +95,22 @@
     color: $mirage;
   }
 
-  .quick__select-body  {
+  .quick__select-body {
     border: none;
   }
+
   .quick__select-label {
     font-size: 14px;
     line-height: 17px;
+  }
+
+  // -cards -----------
+
+  .quick__card {
+    flex: 0 0 100%;
+  }
+
+  .quick__image {
+    height: 428px;
   }
 }
