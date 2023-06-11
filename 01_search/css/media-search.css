@@ -26,6 +26,9 @@
     display: block;
     background-color: #F4F1E7;
   }
+  .navbar {
+    background-color: #F4F1E7 !important;
+  }
   .search {
     display: none;
   }
