@@ -267,10 +267,6 @@ body {
 /* #region // -header-mobile */
 
 .navbar {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 999;
   --bs-navbar-color: rgb(255 255 255 / 0%);
   --bs-navbar-toggler-border-color: rgb(255 255 255 / 0%);
 }
@@ -278,7 +274,7 @@ body {
 .navbar-toggler-icon {
   width: 24px;
   height: 24px;
-  background: url('../img/icon/borger-close.svg') 0 0 / auto auto no-repeat;
+  background: url('../img/icon/burger-open.svg') 0 0 / auto auto no-repeat;
 }
 
 .navbar-nav {
