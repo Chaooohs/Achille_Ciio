@@ -67,10 +67,10 @@
     font-size: clamp(20px, 5cqi, 36px);
   }
   .map__card {
-    width: 60%;
+    width: 85%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .search-mobile {
     height: 96px;
   }
@@ -80,5 +80,18 @@
   }
   .map__card {
     width: 100%;
+  }
+}
+@media (max-width: 374px) {
+  .map__option {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+  }
+  .map__select-wrap {
+    width: 174px;
+  }
+  .map__card {
+    flex-direction: column;
   }
 }

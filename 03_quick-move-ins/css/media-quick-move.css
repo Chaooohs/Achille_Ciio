@@ -1,10 +1,6 @@
 /* #region // -variables */
 /* #endregion */
 @media (max-width: 1024px) {
-  .f-head {
-    font-size: 16px;
-    line-height: 19px;
-  }
   .quick__chapter {
     padding: 100px 80px;
   }
@@ -69,6 +65,8 @@
     color: #181A20;
   }
   .quick__select-body {
+    font-size: 16px;
+    line-height: 19px;
     border: none;
   }
   .quick__select-label {

@@ -32,19 +32,8 @@
 
   // -communaites cards ---------------------------------
 
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .card {
-    width: 268px;
-  }
-
   .card__img {
-    width: 268px;
     height: 240px;
-    object-fit: cover;
   }
 }
 
@@ -105,8 +94,20 @@
     width: 100%;
   }
 
+
+  // -block cards -----------------
+
   .cards {
     padding: 40px 20px;
+  }
+
+  .cards {
+    display: grid;
+  }
+
+  .card {
+    width: auto;
+    margin: 0;
   }
 
   // -block footer ----------------
@@ -118,7 +119,9 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
+
+  // -communaites header -----------
 
   .communities__details {
     font-size: 14px;
@@ -131,19 +134,20 @@
     margin-bottom: 24px;
   }
 
-  // -communaites cards ---------------------------------
-  .cards {
-    // row-gap: 24px;
+  .communities__select-body {
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
   }
 
-  .card {
-    width: 335px;
+  // -communaites cards -------------
+  .cards {
+    grid-template-columns: 1fr;
   }
 
   .card__img {
-    width: 335px;
+    width: 100%;
     height: 240px;
-    object-fit: cover;
   }
 
   // -block footer --------------

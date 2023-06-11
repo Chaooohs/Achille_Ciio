@@ -8,6 +8,7 @@
     display: none;
   }
 }
+
 @media (max-width: 1440px) {
 
   // -block header -----------
@@ -100,11 +101,11 @@
   // -map -------------
 
   .map__card {
-    width: 60%;
+    width: 85%;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
 
   // -search -----------------
   .search-mobile {
@@ -117,8 +118,27 @@
   }
 
   // -map ------------
-  
+
   .map__card {
     width: 100%;
+  }
+}
+
+@media (max-width: 374px) {
+
+  // -map ----------------
+
+  .map__option {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+  }
+
+  .map__select-wrap {
+    width: 174px;
+  }
+
+  .map__card {
+    flex-direction: column;
   }
 }
