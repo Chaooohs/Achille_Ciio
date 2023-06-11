@@ -277,6 +277,21 @@ body {
   background: url('../img/icon/burger-open.svg') 0 0 / auto auto no-repeat;
 }
 
+.offcanvas {
+  max-width: 60%;
+}
+
+.offcanvas.offcanvas-end {
+  width: 100%;
+}
+
+.btn-close {
+  position: fixed;
+  top: 21px;
+  right: 29px;
+  opacity: 1;
+}
+
 .navbar-nav {
   height: 100vh;
   align-items: center;
