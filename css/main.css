@@ -38,7 +38,6 @@ body {
 .page {
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 56px;
 }
 
 .wrapper {
@@ -235,15 +234,39 @@ body {
 
 /* #endregion */
 /* #region // -header-mobile */
-.header-mobile {
+.navbar {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 999;
+  --bs-navbar-color: rgb(255 255 255 / 0%);
+  --bs-navbar-toggler-border-color: rgb(255 255 255 / 0%);
 }
-.header-mobile__logo {
-  width: 122px;
-  height: 30px;
+
+.navbar-toggler-icon {
+  width: 24px;
+  height: 24px;
+  background: url("../img/icon/borger-close.svg") 0 0/auto auto no-repeat;
+}
+
+.navbar-nav {
+  height: 100vh;
+  align-items: flex-end;
+  padding-top: 60px;
+  padding-right: 24px;
+  --bs-nav-link-hover-color: $mirage;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #181A20;
+}
+
+.nav-link:nth-of-type(a) {
+  color: #a5a5a5;
 }
 
 /* #endregion */
