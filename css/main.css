@@ -251,22 +251,22 @@ body {
 
 .navbar-nav {
   height: 100vh;
-  align-items: flex-end;
-  padding-top: 60px;
-  padding-right: 24px;
+  align-items: flex-start;
+  padding: 40px 0 100px 10px;
+  --bs-scroll-height: 100vh;
   --bs-nav-link-hover-color: $mirage;
 }
 
 .nav-link {
+  flex: 0 0 33px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
   letter-spacing: 0.03em;
   color: #181A20;
 }
 
-.nav-link:nth-of-type(a) {
-  color: #a5a5a5;
+.nav-link:hover {
+  border-bottom: 1px solid #181A20;
 }
 
 /* #endregion */
