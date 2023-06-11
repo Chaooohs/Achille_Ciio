@@ -255,9 +255,6 @@
   .form__descript {
     padding: 40px 0;
   }
-  .fomr__tel-mob {
-    margin-bottom: 40px;
-  }
   .form__f {
     display: flex;
     flex-direction: column;
@@ -274,11 +271,6 @@
   }
 }
 @media (max-width: 375px) {
-  .f-comm {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-  }
   .f-descritp {
     font-weight: 400;
     font-size: 32px;
