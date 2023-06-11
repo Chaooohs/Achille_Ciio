@@ -38,6 +38,7 @@ body {
 .page {
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 56px;
 }
 
 .wrapper {
@@ -235,9 +236,10 @@ body {
 /* #endregion */
 /* #region // -header-mobile */
 .header-mobile {
-  height: 102px;
-  background-color: #fff;
-  padding: 36px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 .header-mobile__logo {
   width: 122px;

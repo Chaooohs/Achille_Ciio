@@ -47,6 +47,7 @@ body {
 .page {
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 56px;
 }
 
 .wrapper {
@@ -267,9 +268,13 @@ body {
 /* #region // -header-mobile */
 
 .header-mobile {
-  height: 102px;
-  background-color: $white;
-  padding: 36px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  // height: 102px;
+  // background-color: $white;
+  // padding: 36px 20px;
 
   &__logo {
     width: 122px;
