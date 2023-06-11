@@ -26,6 +26,10 @@
     padding: 100px 80px 60px;
   }
 
+  .map__card-box {
+    height: 588px;
+  }
+
   .map__card {
     padding: 0;
   }
@@ -82,15 +86,14 @@
   }
 
   .map__card-box {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 20px;
+    height: 700px;
     padding: 20px;
     background: url('../../img/back/back-map.jpg') 0 0 / cover no-repeat;
   }
 
   .map__card {
     width: 50%;
+    margin: 20px auto;
   }
 }
 
@@ -143,6 +146,7 @@
   }
 
   .map__card {
+    width: fit-content;
     flex-direction: column;
   }
 }

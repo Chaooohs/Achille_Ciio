@@ -231,7 +231,8 @@
     position: absolute;
     left: 0;
     padding-bottom: 12px;
-    border-bottom: 0.5px solid #C4C4C4;;
+    border-bottom: 0.5px solid #C4C4C4;
+    ;
   }
 
   &__select-label {
@@ -239,6 +240,11 @@
   }
 
   // - card -----------------------------------
+
+  &__card-box {
+    height: 700px;
+    overflow: auto;
+  }
 
   &__card {
     width: 100%;

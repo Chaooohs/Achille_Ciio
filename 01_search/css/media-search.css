@@ -14,6 +14,9 @@
   .search {
     padding: 100px 80px 60px;
   }
+  .map__card-box {
+    height: 588px;
+  }
   .map__card {
     padding: 0;
   }
@@ -55,14 +58,13 @@
     padding: 30px 20px;
   }
   .map__card-box {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 20px;
+    height: 700px;
     padding: 20px;
     background: url("../../img/back/back-map.jpg") 0 0/cover no-repeat;
   }
   .map__card {
     width: 50%;
+    margin: 20px auto;
   }
 }
 @media (max-width: 768px) {
@@ -95,6 +97,8 @@
     width: 174px;
   }
   .map__card {
+    width: -moz-fit-content;
+    width: fit-content;
     flex-direction: column;
   }
 }

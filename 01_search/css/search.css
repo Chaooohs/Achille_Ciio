@@ -178,6 +178,10 @@
 .map__select-label {
   padding-top: 12px;
 }
+.map__card-box {
+  height: 700px;
+  overflow: auto;
+}
 .map__card {
   width: 100%;
   display: flex;
