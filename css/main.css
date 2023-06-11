@@ -251,14 +251,14 @@ body {
 
 .navbar-nav {
   height: 100vh;
-  align-items: flex-start;
+  align-items: center;
   padding: 40px 0 100px 10px;
   --bs-scroll-height: 100vh;
   --bs-nav-link-hover-color: $mirage;
 }
 
 .nav-link {
-  flex: 0 0 33px;
+  flex: 0 0 40px;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
