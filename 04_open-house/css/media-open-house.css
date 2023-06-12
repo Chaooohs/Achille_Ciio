@@ -91,6 +91,9 @@
   }
 }
 @media (max-width: 576px) {
+  .open__chapter {
+    background: url("../../img/back/back-open-house-mobile.jpg") 0 0/cover no-repeat;
+  }
   .open__chapter-wrap {
     display: flex;
     flex-direction: column;
