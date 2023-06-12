@@ -61,6 +61,7 @@
   .open__address {
     grid-row: 3;
     grid-column: 2/3;
+    margin-top: 1rem;
   }
   .open__card-descritp {
     grid-row: 3;
@@ -75,7 +76,7 @@
     height: 28.3cqw;
     -o-object-fit: cover;
        object-fit: cover;
-    width: 335px;
-    height: 317px;
+    width: 268px;
+    height: 240px;
   }
 }
