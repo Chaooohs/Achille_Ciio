@@ -266,11 +266,12 @@ body {
 }
 
 .nav-link {
-  flex: 0 0 40px;
+  flex: 0 0 33px;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: #181A20;
+  margin: 4px 0;
 }
 
 .nav-link:hover {
