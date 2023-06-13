@@ -271,6 +271,11 @@
   }
 }
 @media (max-width: 375px) {
+  .chapter-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
   .f-descritp {
     font-weight: 400;
     font-size: 32px;
