@@ -1,159 +1,81 @@
 @media (max-width: 1024px) {
-  .open__chapter {
-    padding: 0;
-  }
-  .open__title {
-    font-size: 90px;
-    font-size: clamp(38px, 12cqi, 120px);
-    line-height: 117.8%;
-    /* 106/90 */
-  }
-  .open__descript {
-    width: 70%;
-    font-size: clamp(18px, 3cqi, 32px);
-  }
-  .open__cards {
-    row-gap: 80px;
-  }
-  .open__number {
+  .about__title,
+  .about__process-title,
+  .about__column-numb,
+  .about__title-team,
+  .about__build-title {
     font-size: clamp(30px, 6cqi, 50px);
   }
-  .open__sales {
-    font-size: clamp(30px, 6cqi, 50px);
+  .about__boss-img {
+    width: 417px;
+    height: 488px;
+    margin-bottom: 24px;
   }
-  .open__img {
-    width: 282px;
-    height: 267px;
+  .about__cards {
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
   }
-}
-@media (max-width: 992px) {
-  .open__card {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(4, auto);
-    row-gap: 4px;
-    -moz-column-gap: 24px;
-         column-gap: 24px;
-    padding-bottom: 120px;
-    border-bottom: 2px solid #999999;
-  }
-  .open__mouth {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .open__lane {
-    grid-row: 1;
-    grid-column: 2;
-  }
-  .open__number {
-    grid-row: 2;
-    grid-column: 1;
-  }
-  .open__card-title {
-    display: flex;
-    grid-row: 2;
-    grid-column: 1/4;
-  }
-  .open__time {
-    grid-row: 3;
-    grid-column: 1;
-  }
-  .open__address {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    justify-self: flex-start;
-    margin-top: 1rem;
-  }
-  .open__card-descritp {
-    grid-row: 4/5;
-    grid-column: 2/3;
-    align-self: flex-end;
-  }
-  .open__img {
-    grid-row: 3/5;
-    grid-column: 3/5;
-    justify-self: flex-end;
-    width: 30cqw;
-    height: 28.3cqw;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 268px;
-    height: 240px;
+  .about__card-img {
+    height: 312px;
   }
 }
 @media (max-width: 768px) {
-  .open__address {
-    grid-column: 1/3;
-    margin-top: 3rem;
-    margin-top: 3rem;
+  .about__descript-team {
+    padding-right: 0;
   }
-  .open__card-descritp {
-    grid-column: 1/3;
+  .about__build-content {
+    width: 100%;
   }
 }
-@media (max-width: 576px) {
-  .open__chapter {
-    background: url("../../img/back/back-open-house-mobile.jpg") 0 0/cover no-repeat;
+@media (max-width: 375px) {
+  .about__title {
+    padding-left: 0;
   }
-  .open__chapter-wrap {
-    display: flex;
-    flex-direction: column;
+  .about__process-title {
+    padding-left: 0;
   }
-  .open__title {
-    order: 2;
-    margin-bottom: 52px;
+  .about__columns {
+    row-gap: 24px;
+    padding-left: 0;
+    margin-bottom: 40px;
   }
-  .open__descript {
-    order: 1;
-    margin-bottom: 16px;
-  }
-  .open__cards {
-    row-gap: 40px;
-  }
-  .open__card {
-    max-width: 335px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(4, auto);
-    row-gap: 20px;
-    padding-bottom: 40px;
-    margin: 0 auto;
-  }
-  .open__sales {
-    grid-row: 2/3;
-    grid-column: 1/4;
-    justify-self: center;
-  }
-  .open__lane-two {
-    font-size: 16px;
-    justify-self: flex-end;
-  }
-  .open__lane-two {
-    grid-row: 2/3;
-    grid-column: 3/4;
-  }
-  .open__time {
-    grid-row: 4/5;
-    grid-column: 1;
+  .about__column-talent,
+  .about__column-descript {
     font-size: 16px;
     line-height: 19px;
   }
-  .open__address {
-    grid-row: 4/5;
-    grid-column: 2/4;
-    justify-self: flex-end;
-    margin-top: 0;
+  .about__title-team {
+    margin-bottom: 40px;
+  }
+  .about__descript-team {
+    padding-right: 0;
+    margin-bottom: 60px;
+  }
+  .about__boss-img {
+    width: 335px;
+    height: 392px;
+    margin-bottom: 24px;
+  }
+  .about__card-name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .about__card-job {
     font-size: 16px;
     line-height: 19px;
   }
-  .open__card-descritp {
-    grid-row: 5/6;
-    grid-column: 1/4;
-    font-size: 16px;
-    line-height: 19px;
+  .about__build-title {
+    margin-bottom: 40px;
   }
-  .open__img {
-    grid-row: 3/4;
-    grid-column: 1/4;
-    width: 100%;
-    height: 317px;
+  .about__build-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .about__more {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .about__link-arrow {
+    width: 124px;
+    margin-left: 36px;
   }
 }

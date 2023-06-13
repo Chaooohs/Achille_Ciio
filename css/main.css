@@ -157,6 +157,7 @@ body {
 }
 
 .f-arrow:hover {
+  font-weight: bold;
   color: #181A20;
 }
 

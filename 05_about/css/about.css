@@ -86,3 +86,39 @@
   height: 314px;
   background-color: rgba(24, 26, 32, 0.8);
 }
+.about__build {
+  background-color: #fff;
+}
+.about__build-title {
+  margin-bottom: 120px;
+}
+.about__build-content-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.about__build-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.about__build-img {
+  margin-bottom: 32px;
+}
+.about__build-text {
+  margin-bottom: 32px;
+}
+.about__more {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #181A20;
+  margin-bottom: 60px;
+}
+.about__more:hover {
+  color: #181A20;
+}
+.about__link-arrow {
+  width: 160px;
+}
