@@ -196,6 +196,14 @@ body {
   color: #7D7D7D;
 }
 
+.f-select {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #7D7D7D;
+}
+
 /* #endregion */
 /* #region  // -header */
 .header {
