@@ -270,7 +270,8 @@ body {
 
 .navbar-nav {
   width: 162px;
-  padding: 40px 0 40px 20px;
+  padding: 40px 0 40px;
+  margin: 0 auto;
   --bs-nav-link-hover-color: $mirage;
 }
 
@@ -279,8 +280,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
+  margin: 4px auto;
   color: #181A20;
-  margin: 4px 0;
 }
 
 .nav-link:hover {
