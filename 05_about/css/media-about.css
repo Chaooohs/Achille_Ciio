@@ -12,7 +12,7 @@
     margin-bottom: 24px;
   }
   .about__cards {
-    grid-template-columns: repeat(auto-fit, 268px);
+    grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
     row-gap: 60px;
   }
   .about__card-img {

@@ -62,8 +62,7 @@
 }
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 370px);
-  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   row-gap: 92px;
   -moz-column-gap: 1rem;
        column-gap: 1rem;
@@ -71,6 +70,7 @@
 .about__card {
   width: -moz-fit-content;
   width: fit-content;
+  margin: 0 auto;
 }
 .about__card-img {
   height: 432px;
