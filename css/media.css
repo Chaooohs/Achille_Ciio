@@ -349,3 +349,19 @@
     width: 100%;
   }
 }
+@media (max-width: 340px) {
+  .one__box {
+    align-items: center;
+  }
+  .one__description {
+    font-size: 42px;
+    margin-bottom: 24px;
+  }
+  .one__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 240px;
+    height: 100px;
+  }
+}
