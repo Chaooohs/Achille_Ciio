@@ -35,6 +35,9 @@
     flex-direction: column;
     padding: 40px 20px;
   }
+  .quick__select-placeholder {
+    width: 100%;
+  }
   .quick__left {
     width: 100%;
     margin-bottom: 40px;
