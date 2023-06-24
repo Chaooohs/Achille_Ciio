@@ -44,8 +44,8 @@ body {
 }
 
 .chapter {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   padding: 0 40px;
 }
 
@@ -148,7 +148,9 @@ body {
 }
 
 .f-arrow {
+  grid-column: 3/4;
   position: relative;
+  justify-self: flex-end;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;

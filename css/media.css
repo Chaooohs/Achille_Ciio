@@ -89,7 +89,7 @@
     padding-top: 56px;
   }
   .chapter {
-    padding: 0 50px 0 0px;
+    padding: 0 40px 0 0;
   }
   .header {
     display: none;
@@ -118,6 +118,9 @@
   .three__chapter-middle,
   .five__chapter-middle {
     display: none;
+  }
+  .chapter {
+    grid-template-columns: 1fr 1fr;
   }
   .one {
     padding: 74px 0;
